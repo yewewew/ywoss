@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+struct menu{
+  int no; // 메뉴번호 
+  char name[20]; // 메뉴명 
+  char madein[20]; // 원산지 
+  int price; // 가격 
+};
+
+int main(void) {
+  FILE* menupan = NULL;
+  menupan = fopen("menu.txt","wt");
+  struct menu mymenu[5] = { 
+    {1,"삼겹살","국내산",9000}, 
+    {2,"갈비살","미국산",15000},
+    {3,"꽃등심","호주산",30000},
+    {4,"양념갈비","호주산",25000},
+    {5,"차돌박이","국내산",28000}
+  };
+  printf("메뉴번호 메뉴이름 원산지 1인분가격");
+  for(int i=0;i<5;i++){
+    printf("\n   %d\t",mymenu[i].no);
+    printf(" %s  ",mymenu[i].name);
+    printf(" %s  ",mymenu[i].madein);
+    printf(" %d\n",mymenu[i].price);
+    
+    fprintf(menupan,"%d %s %s %d\n",mymenu[i].no,mymenu[i].name,mymenu[i].madein,mymenu[i].price);
+  }
+  fclose(menupan);
+  return 0;
+}
