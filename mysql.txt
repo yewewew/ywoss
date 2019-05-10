@@ -1,0 +1,1 @@
+MySQL is the world's most popular open source database. Whether you area fast growing web property,technolongy ISV or large enterprise, MySQL can cost-effectively help you deliver high performance,scalable database application.
