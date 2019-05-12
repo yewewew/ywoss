@@ -1,0 +1,2 @@
+Ubuntu is a free and open-sourcd Linux distribution based on Debian.
+Ubuntu is officially released in three editions: Desktop, Server, and Core(for internet of things devices and robots). Ubuntu is a popular operating system for cloud computing, with support for OpenStack.
