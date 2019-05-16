@@ -1,2 +1,2 @@
 The Domin Name Systems is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol address. DNS translates domain names to IP address so browsers can load Internet resources.
-Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers elibinate the need for humans to memorize IP address.
+Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers elibinate the need for humans to memorize IP address such as 192.168.1.1(in IPv4), or more complex newer alphanumeric IP addresses such as 2400:cd00:2048:1::c629:d7a2 (in IPv6).
