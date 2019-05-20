@@ -3,5 +3,6 @@ int main(){
         printf("Hello World!\n");
 	printf("My name is jyw.");
         printf("I'm a HGU's student!");
+	printf("HGU is in Pohang");
 	return 0;
 }
