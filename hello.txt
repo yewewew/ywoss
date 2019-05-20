@@ -2,5 +2,6 @@
 int main(){
         printf("Hello World!\n");
 	printf("My name is jyw.");
-        return 0;
+        printf("I'm a HGU's student!");
+	return 0;
 }
