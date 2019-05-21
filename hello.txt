@@ -4,5 +4,6 @@ int main(){
 	printf("My name is jyw.");
         printf("I'm a HGU's student!");
 	printf("HGU is in Pohang.");
+	printf("I think HUG's students are very kind.");
 	return 0;
 }
