@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main(){
         printf("Hello World!\n");
-        return 0;
+	printf("My name is jyw.\n");
+        printf("I'm a HGU's student!\n");
+	printf("HGU is in Pohang.\n");
+	printf("I think HUG's students are very kind.\n");
+	return 0;
 }
-
